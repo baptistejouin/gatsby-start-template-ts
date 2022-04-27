@@ -1,7 +1,8 @@
-import React, { ReactNode } from 'react'
+import React from 'react'
 import { BaseComponentProps } from '@/types';
 
-import '@/helpers/reset.css';
+import '@/styles/reset.css'
+import '@/styles/global.css'
 import { container } from './Layout.module.sass';
 
 export default function Layout({ children }: BaseComponentProps) {
@@ -12,7 +13,7 @@ export default function Layout({ children }: BaseComponentProps) {
         </header>
         <main>
           MAIN
-            {children}
+          { children }
         </main>
         <footer>
             FOOTER

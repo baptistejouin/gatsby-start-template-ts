@@ -103,7 +103,9 @@
   },
   "include": [
     "./src/**/*",
-    "env.d.ts"
+    "env.d.ts",
+    "./gatsby-node.ts",
+    "./gatsby-config.ts",
   ],
   "exclude": [
     "./node_modules",
