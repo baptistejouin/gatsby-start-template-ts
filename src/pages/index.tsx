@@ -4,9 +4,7 @@ import Layout from "@/components/Layout/Layout"
 
 const IndexPage = ({}: PageProps) => (
   <Layout>
-    <main>
-      <h1>Hello World - Index page</h1>
-    </main>
+    <h1>Hello World - Index page</h1>
   </Layout>
 )
 
